@@ -1,0 +1,45 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "./driver.py", line 266, in <module>
+    httpserver.serve(application, host='0.0.0.0',  port=80, use_threadpool=True, threadpool_workers=100)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1310, in serve
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1153, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1132, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 377, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 13] Permission denied
+nohup: ignoring input
+nohup: failed to run command ‘driver.py’: No such file or directory
+nohup: ignoring input
+sudo: nodriver.py: command not found
+Traceback (most recent call last):
+  File "./driver.py", line 266, in <module>
+    httpserver.serve(application, host='0.0.0.0',  port=80, use_threadpool=True, threadpool_workers=100)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1310, in serve
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1153, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 1132, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/paste/httpserver.py", line 377, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use

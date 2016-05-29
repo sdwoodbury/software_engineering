@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+import os
+i = os.fork()
+
+if(i != 0):
+	with open("tokill", "w") as out:
+		out.write(i)
+else:
+	call(['./driver.py > crap'])

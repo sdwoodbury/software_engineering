@@ -1,0 +1,11 @@
+TODO List:
+
+1. Parse and add JSON data to charts
+2. Implement Neighborhood filters
+3. Make map gradient less faint
+4. Fix map load bug
+5. Remove time from date in table
+6. Fix header ui -> Logo is in top left, nav in top right, filters under
+7. Insert table operation tools
+8. Padding on checkboxes
+

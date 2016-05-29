@@ -1,0 +1,30 @@
+<div class="col-md-1" style="margin: 10px; padding: 10px; margin-right:50px;">
+					<div class="dropdown">
+						<button class="btn btn-sm btn-info dropdown-toggle" type="button" data-toggle="dropdown">Hour				<span class="caret"></span></button>
+						<ul class="dropdown-menu"> <li><input type="checkbox" name="0" value=1 style="padding: 5px; margin: 5px;" id="0"  onchange="uncheckAllButton(this)">0</input></li>
+<li><input type="checkbox" name="1" value=1 style="padding: 5px; margin: 5px;" id="1"  onchange="uncheckAllButton(this)">1</input></li>
+<li><input type="checkbox" name="2" value=1 style="padding: 5px; margin: 5px;" id="2"  onchange="uncheckAllButton(this)">2</input></li>
+<li><input type="checkbox" name="3" value=1 style="padding: 5px; margin: 5px;" id="3"  onchange="uncheckAllButton(this)">3</input></li>
+<li><input type="checkbox" name="4" value=1 style="padding: 5px; margin: 5px;" id="4"  onchange="uncheckAllButton(this)">4</input></li>
+<li><input type="checkbox" name="5" value=1 style="padding: 5px; margin: 5px;" id="5"  onchange="uncheckAllButton(this)">5</input></li>
+<li><input type="checkbox" name="6" value=1 style="padding: 5px; margin: 5px;" id="6"  onchange="uncheckAllButton(this)">6</input></li>
+<li><input type="checkbox" name="7" value=1 style="padding: 5px; margin: 5px;" id="7"  onchange="uncheckAllButton(this)">7</input></li>
+<li><input type="checkbox" name="8" value=1 style="padding: 5px; margin: 5px;" id="8"  onchange="uncheckAllButton(this)">8</input></li>
+<li><input type="checkbox" name="9" value=1 style="padding: 5px; margin: 5px;" id="9"  onchange="uncheckAllButton(this)">9</input></li>
+<li><input type="checkbox" name="10" value=1 style="padding: 5px; margin: 5px;" id="10"  onchange="uncheckAllButton(this)">10</input></li>
+<li><input type="checkbox" name="11" value=1 style="padding: 5px; margin: 5px;" id="11"  onchange="uncheckAllButton(this)">11</input></li>
+<li><input type="checkbox" name="12" value=1 style="padding: 5px; margin: 5px;" id="12"  onchange="uncheckAllButton(this)">12</input></li>
+<li><input type="checkbox" name="13" value=1 style="padding: 5px; margin: 5px;" id="13"  onchange="uncheckAllButton(this)">13</input></li>
+<li><input type="checkbox" name="14" value=1 style="padding: 5px; margin: 5px;" id="14"  onchange="uncheckAllButton(this)">14</input></li>
+<li><input type="checkbox" name="15" value=1 style="padding: 5px; margin: 5px;" id="15"  onchange="uncheckAllButton(this)">15</input></li>
+<li><input type="checkbox" name="16" value=1 style="padding: 5px; margin: 5px;" id="16"  onchange="uncheckAllButton(this)">16</input></li>
+<li><input type="checkbox" name="17" value=1 style="padding: 5px; margin: 5px;" id="17"  onchange="uncheckAllButton(this)">17</input></li>
+<li><input type="checkbox" name="18" value=1 style="padding: 5px; margin: 5px;" id="18"  onchange="uncheckAllButton(this)">18</input></li>
+<li><input type="checkbox" name="19" value=1 style="padding: 5px; margin: 5px;" id="19"  onchange="uncheckAllButton(this)">19</input></li>
+<li><input type="checkbox" name="20" value=1 style="padding: 5px; margin: 5px;" id="20"  onchange="uncheckAllButton(this)">20</input></li>
+<li><input type="checkbox" name="21" value=1 style="padding: 5px; margin: 5px;" id="21"  onchange="uncheckAllButton(this)">21</input></li>
+<li><input type="checkbox" name="22" value=1 style="padding: 5px; margin: 5px;" id="22"  onchange="uncheckAllButton(this)">22</input></li>
+<li><input type="checkbox" name="23" value=1 style="padding: 5px; margin: 5px;" id="23"  onchange="uncheckAllButton(this)">23</input></li>
+						</ul>
+					</div>
+		</div>
